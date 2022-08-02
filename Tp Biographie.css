@@ -1,0 +1,24 @@
+.justifier{
+    text-align: justify;  
+}
+.header {
+    padding: 80px;
+    /*un peu de rembourage*/
+    text-align: center;
+    /*centrer le texte*/
+    background: #696969;
+    /* fond vert*/
+    color: white;
+    /* couleur blanche du texte*/
+
+    /*creer deux colonnes inegales qui se trouvent l'une a cote de l'autre*/
+    /*sidebar/colonne a gauche*/
+    .side {
+        flex: 30%;
+        /*definit la largeur de la barre laterale*/
+        background-color: #f1f1f1;
+        /*Couleur de fond grise*/
+        padding: 20px;
+        /*Un peu de rembourage*/
+    }
+    
